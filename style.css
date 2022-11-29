@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+    line-height: 1.4;
+    color: #333;
+        background-color: #fbfbf9;
+}
+.navbar-nav {
+    padding-right: 60px;
+}
+.nav-item { 
+    color: #010110e0;
+    font-weight: 600;
+    padding: 0 1.2rem;
+}
+
+.nav-item a:hover { 
+    color: #FFB9B9;
+}
+
+.spacer {
+    height: 120px;
+}
+
+header {
+    min-height: 90vh;
+}
+
+h4 {
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#home h1 {
+    font-weight: 700;
+}
+
+
+
+#role {
+    text-decoration: underline;
+    text-decoration-color: #FFB9B9;
+}
+
+#home .button {
+    height: 50px;
+    width: 200px;
+    padding: 20px 25px;
+    margin-top: 50px;
+    background-color: #FFB9B9;
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+
+#home img {
+    border-radius: 30px;
+}
+
+/* about styling */
+
+#about {
+    background-color: #f6e6e6;
+    min-height: 100vh;
+}
+
+#about h1 {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #FFB9B9;
+
+}
+
+#about p {    
+    line-height: 2;
+}
+
+#about #igot {
+    text-decoration: none;
+}
+
+.cont-item {
+    display: flex;
+    width: 350px;
+    height:auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fbfbf9;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.cont-item p {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    margin-bottom: 0 !important;
+}
+
+#projects {
+    min-height: 95vh;
+}
+
+#projects h1 {
+    font-weight: 700;
+
+}
+
+.card {
+    margin: 1.4rem;
+    border:none;
+}
+
+.card img {
+    border-radius: 25px 25px 0 0;
+}
+
+.card .card-body {
+    background-color: #f6e6e6;
+    text-align: center;
+    padding: 1.2rem 0;
+    border-radius: 0 0 25px 25px;
+
+}
+
+.card h6 {
+    margin:0;
+}
+.btn {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #ffa0a0;
+    font-weight: 700;
+}
+
+#projects h5 {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #FFB9B9;
+    text-decoration-thickness: 0.2rem;
+    letter-spacing: 0.05rem;
+}
+
+.o-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.o-link:hover {
+    color:#ffa0a0;
+}
+
+#projects h4 {
+    letter-spacing: 0;
+}
+
+.collapse {
+    width: 600px;
+}
