@@ -133,10 +133,13 @@ h4 {
 
 }
 
+.card-body a:hover {
+    color: #fa8484;
+}
 .card h6 {
     margin:0;
 }
-.btn {
+#projects .btn {
     font-size: 0.9rem;
     letter-spacing: 2px;
     text-decoration: none;
@@ -144,7 +147,7 @@ h4 {
     font-weight: 700;
 }
 
-#projects h5 {
+#title h5 {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: #FFB9B9;
@@ -152,19 +155,47 @@ h4 {
     letter-spacing: 0.05rem;
 }
 
-.o-link {
-    color: #333;
-    text-decoration: none;
+#orgs h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-.o-link:hover {
-    color:#ffa0a0;
+#orgs p {
+    font-weight: 600;
+    color: #ffa0a0;
 }
 
-#projects h4 {
-    letter-spacing: 0;
+#contact {
+    min-height: 100vh;
+    background-image: url("./img/background.png");
+   background-position: center;
+   background-size: cover;
 }
 
-.collapse {
-    width: 600px;
+.contact-form {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#contact input {
+    background-color: transparent;
+}
+
+#contact h1 {
+    font-weight: 700;
+    color:#333;
+
+}
+.con {
+    display: flex;
+    width: 200px;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 1rem;
+}
+
+.con i {
+    color:#FFB9B9
 }

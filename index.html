@@ -27,10 +27,10 @@
                     <a class="nav-link" href="#about">About Me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">My Projects</a>
+                    <a class="nav-link" href="#projects">My Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -95,7 +95,7 @@
         </div>
       </section>
 
-      <section id="projects" class="">
+      <section id="projects">
             <div class="container">
                 <div class="d-flex flex-column justify-content-center align-items-center">
                     <div class="container text-center mt-2">
@@ -136,26 +136,26 @@
                        
 
                     </div>
-                    <div class="container text-center mt-5 mb-3 mb-md-4">
+                    <div class="container text-center mt-5 mb-3 mb-md-4" id="title">
                         <h5>Organizations I've worked with</h5>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-center justify-content-lg-between w-100">
+                    <div class="d-flex flex-column flex-md-row justify-content-center justify-content-lg-between w-100" id="orgs">
                       <div class="container my-3 my-md-0">
                         <div class="d-flex flex-column justify-content-center align-items-center">
-                          <h4>UX Society</h4>
+                          <h5>UX Society</h5>
                           <p>Ermita, Manila</p>
                         </div>
                       </div>
                       <div class="container my-3 my-md-0">
                              
                       <div class="d-flex flex-column justify-content-center align-items-center">
-                        <h4>Special Advantage</h4>
+                        <h5>Special Advantage</h5>
                         <p>Montebello, NY</p>
                       </div>
                       </div>
-                      <div class="container my-3 my-md-0">
+                      <div class="container my-3 my-md-0 mb-5">
                         <div class="d-flex flex-column justify-content-center align-items-center">
-                          <h4>TUP Debate Society</h4>
+                          <h5>TUP Debate Society</h5>
                           <p>Ermita, Manila</p>
                         </div>
                       </div>
@@ -166,6 +166,56 @@
                     
                 </div>
             </div>
+      </section>
+
+      <section id="contact" class="px-0 px-lg-5 pt-4 pb-5">
+          <div class="container contact-form w-75 px-5 px-lg-0 mt-5 mt-lg-0">
+            <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-evenly py-5 m-lg-5">
+              <div class="container">
+                <h1 class="my-5">Let's keep in touch.</h1>
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Jane Doe">
+                  <label for="floatingInput">Full Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Message</label>
+                </div>
+                <div class="container text-end">
+                  <button type="submit" class="btn btn-light mt-3">Submit</button>
+                </div>
+              </div>
+              <div class="container p-5 w-75">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                  <div class="container my-5">
+                    <img src="./img/logo.png" alt="Toni's logo" width="60px" height="30px">
+                  </div>
+                  <div class="con">
+                      <i class="fa-solid fa-envelope fa-xl"></i>
+                      <span class="ms-3">tmestrera@gmail.com</span>
+                  </div>
+                  <div class="con">
+                      <i class="fa-solid fa-phone fa-xl"></i>
+                      <span class="ms-3">+63 908 4946 275</span>
+                  </div>
+                  <div class="con">
+                      <i class="fa-brands fa-github fa-xl"></i>
+                      <span class="ms-3">tonsz</span>
+                  </div>
+                  <div class="con">
+                      <i class="fa-brands fa-linkedin fa-xl"></i>
+                      <span class="ms-3">tbechayda</span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
       </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
